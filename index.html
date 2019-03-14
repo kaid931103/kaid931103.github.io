@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+<title>Introduction</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+p {
+  color: white;
+}
+h1 {
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Style the header */
+header {
+  background-color: Blue;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 600px; /* only for demonstration, should be removed */
+  background: AliceBlue   ;
+  padding: 20px;
+}
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article {
+  float: left;
+  padding: 15px;
+  width: 70%;
+  background-color: LightBlue;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h3>This is about YianKai</h3>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="hw4-1.html">自我介紹</a></li>
+      <br>
+      <li><a href="hw4-2.html">學校.照片</a></li>
+      <br>
+      <li><a href="hw4-3.html">生活照</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>自我介紹</h1>
+    <p>姓名:陳彥凱</p>
+    <p>生日:1998年11月03日</p>
+    <p>星座:天蠍座</p>
+    <p>興趣:唱歌</p>
+  </article>
+  
+  <article> </article>
+  
+  
+</section>
+
+
+
+</body>
+</html>
